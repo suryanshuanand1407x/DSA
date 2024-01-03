@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// seperate area is created in the stack for this type of function
 void swap(int *x, int *y){
     int temp;
     temp=*x;
